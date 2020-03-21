@@ -89,3 +89,6 @@ salario_total(funcionario(nombre(X), Y, Z), Semestre, Total) :- funcionario(nomb
 totalSemestre(Tipo, Valor) :- listaNominas(Lista, Tipo),  sumar_lista(Lista, Valor).
 %calculo de las listas de las nominas
 listaNominas(Lista, Tipo) :- findall( Valor, salario_total(funcionario(nombre(_),_,_), Tipo, Valor), Lista ).
+
+%escribiendo comentarios
+
