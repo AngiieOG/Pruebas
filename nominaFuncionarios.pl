@@ -92,3 +92,5 @@ listaNominas(Lista, Tipo) :- findall( Valor, salario_total(funcionario(nombre(_)
 
 %escribiendo comentarios
 
+%una prueba para hacer merge
+
